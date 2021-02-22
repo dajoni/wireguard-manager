@@ -1,0 +1,24 @@
+script:
+  output_directory: output
+server:
+  address: 10.0.0.1/24
+  listen_port: 51820
+  endpoint_ip: 127.0.0.1
+  public_key: somepublickey=
+  private_key: someprivatekey=
+
+clients:
+  dns: 1.1.1.1, 1.0.0.1
+  instances:
+  - name: mba
+    ip: 10.0.0.2/32
+    public_key: somepublickey=
+    private_key: someprivatekey=
+  - name: iphone
+    ip: 10.0.0.3/32
+    public_key: somepublickey=
+    private_key: someprivatekey=
+  - name: TV
+    ip: 10.0.0.4/32
+    public_key: somepublickey=
+    private_key: someprivatekey=

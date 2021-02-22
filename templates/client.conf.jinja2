@@ -1,0 +1,9 @@
+[Interface]
+PrivateKey = {{ client.private_key }}
+Address = {{ client.ip }}
+DNS = {{ clients.dns }}
+
+[Peer]
+PublicKey = {{ server.public_key }}
+AllowedIPs = 0.0.0.0/0
+Endpoint = {{ server.endpoint_ip }}:{{ server.listen_port }}
