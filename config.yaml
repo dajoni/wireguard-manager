@@ -22,3 +22,7 @@ clients:
     ip: 10.0.0.4/32
     public_key: somepublickey=
     private_key: someprivatekey=
+  - name: Shaun
+    ip: 10.0.0.5/32
+    public_key: somepublickey=
+    private_key: someprivatekey=
