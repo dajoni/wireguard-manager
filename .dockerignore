@@ -1,0 +1,10 @@
+config.original.yaml
+.pytest_cache/
+output/
+.idea/
+venv/
+__pycache__/
+.git
+.gitignore
+.dockerignore
+Dockerfile
